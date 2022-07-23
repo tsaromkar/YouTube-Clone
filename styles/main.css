@@ -1,0 +1,90 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (min-width: 1350px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1349px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 599px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-thumbnail-container {
+  position: relative;
+}
+
+.video-thumbnail {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.video-duration {
+  background-color: black;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  border-radius: 2px;
+  position: absolute;
+  right: 4px;
+  bottom: 18px;
+  padding: 4px;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.video-channel-container {
+  margin-right: 14px;
+}
+
+.video-channel {
+  width: 40px;
+  border-radius: 20px;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.video-author {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(112, 109, 109);
+  margin-bottom: 4px;
+}
+
+.video-views-and-created-on {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(112, 109, 109);
+}
