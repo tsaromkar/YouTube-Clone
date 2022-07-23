@@ -22,22 +22,37 @@
         </section>
         <section class="middle-section">
           <input class="search-input-text" type="text" placeholder="Search">
-          <button class="video-search-icon-button">
-            <img class="video-search-icon" src="icons/search.svg">
-          </button>
-          <button class="voice-search-icon-button">
-            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          </button>
+          <div class="video-search-icon-container">
+            <button class="video-search-icon-button">
+              <img class="video-search-icon" src="icons/search.svg">
+            </button>
+            <div class="tooltip">Search</div>
+          </div>
+          <div class="voice-search-icon-container">
+            <button class="voice-search-icon-button">
+              <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            </button>
+            <div class="tooltip">Search with your voice</div>
+          </div>
         </section>
         <section class="right-section">
-          <img class="upload" src="icons/upload.svg">
-          <img class="youtube-apps" src="icons/youtube-apps.svg">
+          <div class="upload-container">
+            <img class="upload" src="icons/upload.svg">
+            <div class="tooltip">Create</div>
+          </div>
+          <div class="youtube-apps-container">
+            <img class="youtube-apps" src="icons/youtube-apps.svg">
+            <div class="tooltip">YouTube Apps</div>
+          </div>
           <div class="notifications-container">
-            <img class="notifications" src="icons/notifications.svg">
-            <div class="notifications-count-container">
-              <div class="notifications-count">3</div>
-            </div>
-          </div>  
+            <div class="notifications-inner-container">
+              <img class="notifications" src="icons/notifications.svg">
+              <div class="notifications-count-container">
+                <div class="notifications-count">3</div>
+              </div>
+            </div>  
+            <div class="tooltip">Notifications</div>
+          </div>
           <img class="my-channel" src="channels/my-channel.jpeg">
         </section>
       </div>
