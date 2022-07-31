@@ -18,10 +18,12 @@
 .hamburger-menu {
   height: 24px;
   margin: 0 25px;
+  cursor: pointer;
 }
 
 .youtube-logo {
   height: 21px;
+  cursor: pointer;
 }
 
 .middle-section {
@@ -58,6 +60,7 @@
   background-color: rgb(247, 246, 246);
   margin-left: -1px;
   text-align: center;
+  cursor: pointer;
 }
 
 .video-search-icon {
@@ -110,6 +113,7 @@
   border-radius: 21px;
   margin-left: 8px;
   background-color: rgb(248, 246, 246);
+  cursor: pointer;
 }
 
 .voice-search-icon {
@@ -127,18 +131,22 @@
 
 .upload {
   height: 24px;
+  cursor: pointer;
 }
 
 .youtube-apps {
   height: 24px;
+  cursor: pointer;
 }
 
 .notifications {
   height: 24px;
+  cursor: pointer;
 }
 
 .notifications-inner-container {
   position: relative;
+  cursor: pointer;
 }
 
 .notifications-count-container {
@@ -153,6 +161,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .notifications-count {
@@ -163,9 +172,11 @@
   font-weight: 500;
   padding: 2px 5px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .my-channel {
   height: 32px;
   border-radius: 16px;
+  cursor: pointer;
 }
